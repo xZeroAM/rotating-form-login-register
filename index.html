@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="resource/login.ico" type="image/x-icon">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div id="container-login">
+            <img src="resource/login.png" alt="" class="img-login">
+            <h3 class="title">Login</h3>
+            <form>
+                <input type="text" name="username" id="user" class="input" placeholder="Username" />
+                <input type="password" name="password" id="password" class="input" placeholder="Password" />
+                <input type="submit" value="Login" class="btn-login" />
+                <p class="p-text">Not Registered? <span class="btn-style"><a href="#" id="link-sign-up">Sign Up</a></span></p>
+            </form>
+        </div>
+        <div id="container-sign-up" class="no-ver">
+            <img src="resource/login.png" alt="" class="img-register">
+            <h3 class="title">Register</h3>
+            <form>
+                <input type="text" name="username" id="user" class="input" placeholder="Username" />
+                <input type="password" name="password" id="password" class="input" placeholder="Password" />
+                <input type="password" name="password" id="password" class="input" placeholder="Confirm Password" />
+                <input type="submit" value="Register" class="btn-register" />
+                <p class="p-text reg">You have an account? <span class="btn-style"><a href="#" id="link-login">Login</a></span></p>
+            </form>
+        </div>
+    </div>
+    <script src="scrip.js"></script>
+</body>
+
+</html>
