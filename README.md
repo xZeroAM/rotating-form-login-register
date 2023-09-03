@@ -1,4 +1,4 @@
-#Rotating registration and login form
+# Rotating registration and login form
 
-![Alt text](image.png)
-![Alt text](image-1.png)
+![Alt text](resource/image.png)
+![Alt text](resource/image-1.png)
